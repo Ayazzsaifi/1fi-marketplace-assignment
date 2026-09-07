@@ -41,3 +41,9 @@ src/
 Only `src/data/api.js` needs to change — `fetchProducts()` and `fetchProductById()`
 are the only places screens touch data, so replacing the mock `delay()`/array lookup
 with real `fetch()` calls to a backend requires no changes to any screen.
+
+## Screenshots
+
+| Marketplace List | Product Detail | EMI Plan Selected |
+|---|---|---|
+| ![Marketplace](./screenshots/marketplace_list.png) | ![Product Detail](./screenshots/product_detail_emi.png) | ![EMI Plan](./screenshots/emi_plan_selected.png) |
