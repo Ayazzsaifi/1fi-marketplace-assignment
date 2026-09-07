@@ -16,9 +16,7 @@ const ICONS = {
   Profile: 'person-outline',
 };
 
-// Mirrors the real 1Fi app's bottom navigation (Home, Shop, EMI Dues,
-// Limit, Profile) so the Marketplace feature sits inside the same
-// overall navigation shell it would in production.
+
 export default function RootTabs() {
   return (
     <Tab.Navigator
